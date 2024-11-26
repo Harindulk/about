@@ -1,0 +1,32 @@
+repo_name: Harindulk/Harindulk
+report_id: 925347a0928aedb1cf113fc0033162b8
+version: 0.1
+repo_type: Public
+timestamp: '2024-04-04T18:24:11+00:00'
+requested_by: Harindulk
+provider: github
+branch: Harindulk
+detected_tools_count: 2
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Harindulk/Harindulk
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/Harindulk/Harindulk/blob/Harindulk/.github/workflows/blog-post-workflow.yml
+  detection_source: ".github/workflows/blog-post-workflow.yml"
+  last_updated_by: Harindu Fonseka
+  last_updated_on: 2022-07-26 12:17:19.000000000 Z
